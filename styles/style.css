@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(196, 41, 41, 0.8);
+    overflow: hidden;
+    height: 70px;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    align-self: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    height: inherit;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: lightpink;
+    color: black;
+}
+
+.pages {
+    float: right; /* Agrupa los elementos a la derecha del contenedor */
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
