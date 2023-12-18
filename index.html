@@ -3,36 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find your next story - The Library</title>
+    <title>The Library - Demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/fonts.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<script src="./js/index.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-dark bg-dark justify-content-between fixed-top">
-        <a class="navbar-brand" href="#">The Library</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Books</a>
-                <a class="nav-item nav-link" href="#">Profile</a>
-                <a class="nav-item nav-link disabled" href="#">Premium</a>
-            </div>
-        </div>
-    </nav>
-    <main>
-        <div class="container">
-            <div class="row">
-                <h1>Hello, this is a change.</h1>
-            </div>
-        </div>
-    </main>
-    <footer class="bg-dark text-center text-lg-start fixed-bottom text-white">
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2023 Copyright: The Library.
-        </div>
-    </footer>
+<body style="font-family: 'IM Fell Regular'">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="height: 10vh;">
+		<div class="container-fluid">
+			<a class="navbar-brand" style="font-family: 'Best Christmas'; font-size: 30px; color: #a6abb0;" href="#">The Library</a>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+					<li class="nav-item"><a class="nav-link disable" href="#">My Profile</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div style="background-image: url('./img/bg1.jpg'); height: 80vh; background-repeat: no-repeat; background-size: cover; background-position: center center;" class="bg-image p-5 text-center shadow-1-strong text-white">
+		<div class="container position-absolute top-50 start-50 translate-middle">
+			<h1 class="h2" style="font-family: 'Best Christmas'; font-size: 90px; text-shadow: 5px 5px 5px black; color: #d5dce2;">The Library</h1>
+			<p style="font-size: 30px;">Find your next story.</p>
+			<a href="#" id="indexButton" class="btn btn-dark btn-lg" style="--bs-btn-bg: #a6abb0; --bs-btn-border-color: #1f2328; --bs-btn-color: #1f2328;">Here</a>
+		</div>
+	</div>
+	<footer class="bg-dark text-center text-lg-start sticky-bottom" style="height: 10vh;">
+		<div class="text-center p-3 text-light" >
+			Github repository 
+			<a class="text-light" href="https://github.com/agustinarolando/11_individual.git" target="_blank">here</a>
+		</div>
+	</footer>
 </body>
 </html>

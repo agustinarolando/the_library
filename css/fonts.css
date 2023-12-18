@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "IM Fell Regular";
+    src: url("FeFCrm2.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IM Fell Italic";
+    src: url("FeFCit2.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Fire Flight";
+    src: url("Fire\ Flight\ FREE.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Best Christmas";
+    src: url("BestChristmas.otf");
+    font-weight: normal;
+    font-style: normal;
+}
