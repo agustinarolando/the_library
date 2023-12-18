@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Library - Demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/fonts.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<script src="./js/books.js"></script>
+</head>
+<body style="font-family: 'IM Fell Regular';">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="height: 10vh;">
+		<div class="container-fluid">
+			<a class="navbar-brand" style="font-family: 'Best Christmas'; font-size: 30px; color: #a6abb0;" href="#">The Library</a>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+					<li class="nav-item"><a class="nav-link active" href="#">Books</a></li>
+					<li class="nav-item"><a class="nav-link disable" href="#">My Profile</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div style="background-image: url('./img/bg2.jpg'); height: 80vh; background-repeat: no-repeat; background-size: cover; background-position: center center;" class="bg-image p-5 text-center shadow-1-strong text-white">
+		<div class="container" >
+			<div class="row">
+				<div class="input-group w-50 m-auto mb-3" style="padding: 0;">
+					<input id="search" type="search" class="form-control" placeholder="Search by name" aria-label="book" aria-describedby="basic-addon1">
+					<a id="inputButton" href="#" class="btn btn-dark" style="--bs-btn-bg: #ba995b; --bs-btn-border-color: #635233 ">Find</a>
+				</div>
+			</div>
+			<div class="row" id="container">
+				<!-- <div class="card mb-3 w-75 m-auto">
+					<div class="row g-0">
+						<div class="col-md-8">
+							<div class="card-body text-start">
+								<h5 class="card-title">Pride and Prejudice</h5>
+								<h6 class="card-subtitle mb-2 text-body-secondary">Jane Austen</h6>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card-body text-end mt-2">
+								<a class="card-link" href="#" target="_blank">Learn More</p>
+							</div>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<footer class="bg-dark text-center text-lg-start fixed-bottom" style="height: 10vh;">
+		<div class="text-center p-3 text-light" >
+			Github repository 
+			<a class="text-light" href="https://github.com/agustinarolando/11_individual.git" target="_blank">here</a>
+		</div>
+	</footer>
+</body>
+</html>
